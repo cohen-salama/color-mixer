@@ -38,7 +38,6 @@ class App extends React.Component {
               <label>{component.slice(0,component.length - 1)}</label><br/>
               <input type='number' name={component} value={this.state[component]} onChange={this.changeComponent}></input>
               <br/>
-              <br/>
               </>
             )
           })}
@@ -50,7 +49,6 @@ class App extends React.Component {
               <label>{component.slice(0,component.length - 1)}</label><br/>
               <input type='number' name={component} value={this.state[component]} onChange={this.changeComponent}></input>
               <br/>
-              <br/>
               </>
             )
           })}
@@ -61,7 +59,6 @@ class App extends React.Component {
               <>
               <label>{component}</label><br/>
               <p>{(this.state[component + 1] + this.state[component + 2]) / 2}</p>
-              <br/>
               </>
             )
           })}
