@@ -2,14 +2,16 @@
   text-align: center;
   display: grid;
   grid-template-columns: 5% 30% 30% 30% 5%;
-  grid-template-rows: 20% 30% 50%;
+  grid-template-rows: 20% 35% 45%;
   width: 100vw;
-  height: 100vh
+  height: 100vh;
+  align-items: center
 }
 
 p {
-  font-size: 13px;
-  margin: 2.5px;
+  font-size: 14px;
+  margin-top: 0.1vh;
+  margin-bottom: 2.25vh;
 }
 
 label {
@@ -17,7 +19,8 @@ label {
 }
 
 input {
-  width: 10vw
+  width: 10vw;
+  margin-bottom: 1.5vh
 }
 
 .title {
@@ -43,12 +46,14 @@ input {
 #components3 {
   grid-column: 4 / 5;
   grid-row: 2 / 3;
+  margin-top: 1vh;
 }
 
 .square {
   justify-self: center;
-  width: 25vw;
-  height: 25vw;
+  align-self: center;
+  width: 20vw;
+  height: 20vw;
 }
 
 #square1 {
